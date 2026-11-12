@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LOXI GAMING</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #090b18;
+  color: white;
+  font-family: Arial;
+}
+header {
+  background: #12152b;
+  padding: 22px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #8b72ff;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background: #171a32;
+}
+nav a { color: white; text-decoration: none; }
+main { padding: 25px; text-align: center; }
+h1 { color: #9b82ff; }
+.game {
+  background: #171a32;
+  border: 1px solid #34385e;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 350px;
+}
+button {
+  background: #7955ff;
+  color: white;
+  border: 0;
+  padding: 12px 25px;
+  border-radius: 9px;
+  font-size: 16px;
+}
+</style>
+</head>
+<body>
+<header>LOXI GAMING</header>
+<nav>
+<a href="#">Domů</a>
+<a href="#games">Hry</a>
+<a href="#about">O nás</a>
+</nav>
+<main>
+<h1>VÍTEJ V LOXI GAMING</h1>
+<p>Tvůj svět her začíná právě tady!</p>
+
+<section id="games">
+<h2>🎮 NAŠE HRY</h2>
+<div class="game">
+<h3>Minecraft</h3>
+<p>Svět plný dobrodružství.</p>
+<button onclick="alert('Minecraft již brzy!')">Hrát</button>
+</div>
+<div class="game">
+<h3>Roblox</h3>
+<p>Vytvářej a objevuj nové světy.</p>
+<button onclick="alert('Roblox již brzy!')">Hrát</button>
+</div>
+</section>
+<section id="about">
+<h2>O LOXI</h2>
+<p>Gaming komunita pro všechny hráče.</p>
+</section>
+</main>
+</body>
+</html>
